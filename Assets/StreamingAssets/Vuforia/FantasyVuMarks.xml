@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="towertwo_target" size="1.000000 1.000000" />
+    <ImageTarget name="tower" size="1.000000 1.000000" />
+    <ImageTarget name="shield_target" size="1.000000 1.000000" />
+    <ImageTarget name="longaxe_target" size="1.000000 1.000000" />
+    <ImageTarget name="flag_target" size="1.000000 1.000000" />
+    <ImageTarget name="crossswords_target" size="1.000000 1.000000" />
+    <ImageTarget name="crossbow_target" size="1.000000 1.000000" />
+    <ImageTarget name="castle" size="1.000000 1.000000" />
+    <ImageTarget name="banner_target" size="1.000000 1.000000" />
+    <ImageTarget name="axes" size="1.000000 1.000000" />
+  </Tracking>
+</QCARConfig>
