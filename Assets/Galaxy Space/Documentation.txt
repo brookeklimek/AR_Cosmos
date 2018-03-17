@@ -1,0 +1,38 @@
+*/
+)
+) Thanks for buying Procedural Galaxy Asset!
+)
+*\
+
+# How to create a new galaxy? #
+
+1) First of all, you have to create a particle system.
+2) Set "Rate over Time" (Particle System Settings, Emission) to ZERO.
+3) Now you can add "ProceduralGalaxy" component and set up it.
+ > Seed: Random seed (Ex. 12345)
+ 
+ > Galaxy Resolution: Galaxy Map Resolution (Ex. 256)
+ > Brightness: Brightness for Background Generator. (Ex. 2 Points: [| 0.75] -> [_ 0.6] or use Demo Example)
+ > Galaxy Color: Color for both generators. (Ex. 2 Colors: [225, 227, 184] -> [72, 0, 255] or use Demo Example)
+ > Arm Count: Amount of arms. (Ex. 5)
+ > Arm Max Offset: Arms "Distraction". (Ex. 0.3)
+ > Rotation Factor: Arms rotation level. (Ex. 5)
+ > Random Offset XY: Arms offset. (Ex. 0.05)
+ > Arm Stars Count: Arms "Intesity". (Ex. 20'000)
+ > Arm Brightness: Brightness for Arm Geneartor. (Ex. 3 Points: [| 0.7] -> [|_ 0.6, 0.6] -> [_ 1.0] or use Demo Example)
+ > Particle Size Multiplier: Set dependence particle's size on its brightness (alpha). (Ex. 6)
+
+ OPTIONAL:
+ > Output Image: UI.RawImage to output Galaxy Map.
+ > Output Name: UI.Text to output Galaxy Name.
+ > Output Name Construction: Set construction of output (%n will be replaced with Galaxy Name).
+
+# What's about scripting? #
+
+ > ProceduralGalaxy.cs 
+  - You can use GenerateGalaxyMap() method to generate 2D Galaxy Map
+  - To update visual part of the galaxy, you can use UpdateGalaxy()
+
+ > ProceduralGalaxyCaller.cs
+  - GenerateName (int Size) to generate random name using next way:
+	Vowel + Consonant + Vowel ...
