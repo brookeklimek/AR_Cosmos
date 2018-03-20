@@ -21,6 +21,7 @@ public class AllowTranslate : MonoBehaviour {
 				if(Physics.Raycast(ray, out hit)) {
 					//gameObject.GetComponent<LeanTranslate> ().enabled = true;
 					print (gameObject.name);
+					gameObject.GetComponent<LeanSelectable> ().Select();
 				}
 			}
 		
