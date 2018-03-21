@@ -18,8 +18,9 @@ public class PlanetDrop : MonoBehaviour {
 
 	void OnTriggerEnter (Collider planet) {
 		if (planet.gameObject.tag == gameObject.tag) {
-			Debug.Log ("Mars' Touched");
-			correctMaterial.color = Color.red;
+			Debug.Log ("Planet" + gameObject.tag + "Touched");
+			QuizManager.AddPlanetCorrect ();
+			correctMaterial.color = Color.green;
 		}	
 	}
 }
