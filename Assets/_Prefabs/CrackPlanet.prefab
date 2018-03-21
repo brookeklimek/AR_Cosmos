@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33697341032726132}
   - component: {fileID: 23143382427400612}
   - component: {fileID: 95553332191419680}
+  - component: {fileID: 135618958618904466}
   m_Layer: 0
   m_Name: Planet
   m_TagString: Untagged
@@ -37,17 +38,16 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4811408261823634}
-  - component: {fileID: 114852386837805882}
   - component: {fileID: 114007285075932434}
   - component: {fileID: 114061672614424292}
-  - component: {fileID: 114637122697898452}
+  - component: {fileID: 114470883979524060}
   m_Layer: 0
   m_Name: CrackPlanet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4683220729177564
 Transform:
   m_ObjectHideFlags: 1
@@ -67,7 +67,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1589564324263956}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c73c1ab94e28d244827af556dca1ed2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IgnoreGuiFingers: 0
+  IgnoreGuiFingers: 1
   RequiredFingerCount: 0
   RequiredSelectable: {fileID: 0}
   WheelSensitivity: 0
@@ -165,10 +165,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IgnoreGuiFingers: 1
-  RequiredFingerCount: 0
+  RequiredFingerCount: 1
   RequiredSelectable: {fileID: 0}
   Camera: {fileID: 0}
---- !u!114 &114637122697898452
+--- !u!114 &114470883979524060
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -176,17 +176,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 1589564324263956}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbba22485e1d14c7d872aab3db8921a9, type: 3}
+  m_Script: {fileID: 11500000, guid: 2bc19fea5a409ee4eabb4eb2049f4ee4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114852386837805882
-MonoBehaviour:
+  asteroid: {fileID: 0}
+  secondEarth: {fileID: 0}
+  helperText: {fileID: 0}
+--- !u!135 &135618958618904466
+SphereCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1589564324263956}
+  m_GameObject: {fileID: 1024130623272330}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30b4f5a244787174dbc6e9c2265690ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  serializedVersion: 2
+  m_Radius: 0.5000001
+  m_Center: {x: 0, y: 0, z: 0}

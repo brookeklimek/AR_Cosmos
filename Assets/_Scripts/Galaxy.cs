@@ -14,11 +14,11 @@ public class Galaxy : MonoBehaviour {
     public Text helperText;
 
     private void OnEnable() {
-        LeanTouch.OnFingerDown += OnFingerDown;
+        LeanTouch.OnFingerTap += OnFingerTap;
     }
 
     private void OnDisable() {
-        LeanTouch.OnFingerDown -= OnFingerDown;
+        LeanTouch.OnFingerTap -= OnFingerTap;
     }
 
     void Start () {
@@ -34,7 +34,11 @@ public class Galaxy : MonoBehaviour {
 
   //  }
 
-    void OnFingerDown(LeanFinger finger) {
+    void OnFingerTap(LeanFinger finger) {
+
+        if (finger.IsOverGui == true) {
+            return;
+        }
         // home.GetComponent<Renderer>().material = tappedMaterial;
 
         earlyEarth.SetActive(true);

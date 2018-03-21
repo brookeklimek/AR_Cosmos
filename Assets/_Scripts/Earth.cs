@@ -13,11 +13,11 @@ public class Earth : MonoBehaviour {
     public Text helperText;
 
     private void OnEnable() {
-        LeanTouch.OnFingerDown += OnFingerDown;
+        LeanTouch.OnFingerTap += OnFingerTap;
     }
 
     private void OnDisable() {
-        LeanTouch.OnFingerDown -= OnFingerDown;
+        LeanTouch.OnFingerDown -= OnFingerTap;
     }
 
     void Start() {
@@ -26,12 +26,14 @@ public class Earth : MonoBehaviour {
 
 
 
-    void OnFingerDown(LeanFinger finger) {
-
+    void OnFingerTap(LeanFinger finger) {
+        if (finger.IsOverGui == true) {
+            return;
+        }
 
         //  Instantiate(asteroid);
-       // secondEarth.SetActive(true);
-       // Destroy(gameObject);
+        secondEarth.SetActive(true);
+       Destroy(gameObject);
 
        
 
