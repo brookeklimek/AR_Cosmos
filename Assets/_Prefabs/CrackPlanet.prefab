@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 114852386837805882}
   - component: {fileID: 114007285075932434}
   - component: {fileID: 114061672614424292}
+  - component: {fileID: 114637122697898452}
   m_Layer: 0
   m_Name: CrackPlanet
   m_TagString: Untagged
@@ -66,9 +67,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1589564324263956}
-  m_LocalRotation: {x: 0, y: 0.8023492, z: 0, w: 0.59685487}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4683220729177564}
   m_Father: {fileID: 0}
@@ -167,6 +168,17 @@ MonoBehaviour:
   RequiredFingerCount: 0
   RequiredSelectable: {fileID: 0}
   Camera: {fileID: 0}
+--- !u!114 &114637122697898452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1589564324263956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbba22485e1d14c7d872aab3db8921a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114852386837805882
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -178,4 +190,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30b4f5a244787174dbc6e9c2265690ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20

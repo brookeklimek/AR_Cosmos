@@ -30,8 +30,8 @@ public class Earth : MonoBehaviour {
 
 
         //  Instantiate(asteroid);
-        secondEarth.SetActive(true);
-        Destroy(gameObject);
+       // secondEarth.SetActive(true);
+       // Destroy(gameObject);
 
        
 
