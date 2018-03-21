@@ -58,7 +58,7 @@ namespace Lean.Touch
 			if (camera != null)
 			{
 				// Screen position of the transform
-				var screenPosition = camera.WorldToScreenPoint(transform.position);
+				Vector3 screenPosition = camera.WorldToScreenPoint(transform.position);
 
 				// Add the deltaPosition
 				screenPosition += (Vector3)screenDelta;
