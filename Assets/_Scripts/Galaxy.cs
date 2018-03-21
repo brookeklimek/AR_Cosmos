@@ -6,7 +6,9 @@ using UnityEngine.UI;
 
 public class Galaxy : MonoBehaviour {
 
-    public GameObject home;
+   // public GameObject galaxy;
+    public GameObject earlyEarth;
+    //public GameObject asteroids;
     public Material startMaterial;
     public Material tappedMaterial;
     public Text helperText;
@@ -20,7 +22,7 @@ public class Galaxy : MonoBehaviour {
     }
 
     void Start () {
-        home.SetActive(false);
+        earlyEarth.SetActive(false);
       // home.GetComponent<Renderer>().material = startMaterial;
 	}
 	
@@ -34,8 +36,10 @@ public class Galaxy : MonoBehaviour {
 
     void OnFingerDown(LeanFinger finger) {
         // home.GetComponent<Renderer>().material = tappedMaterial;
-        home.SetActive(true);
-        Destroy(home.gameObject, 5.0f);
+
+        earlyEarth.SetActive(true);
+        Destroy(gameObject);
+        
 
         helperText.text = "Fun fact"; //"Earth is in the outskirts of the galaxy. An obscure locale on the edge of a distant spiral arm.";
         // Add helper text to tell user they can scale

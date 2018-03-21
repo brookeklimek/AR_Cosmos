@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: CrackPlanet
+  m_Shader: {fileID: 4800000, guid: b0fb3636ca7c42842b96e63b687d55a5, type: 3}
+  m_ShaderKeywords: _PULSATION_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DiffuseMap:
+        m_Texture: {fileID: 2800000, guid: bcbf6e89d18244547944c2397b01b6cc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: d9bb4d19fba066241b412668303ec805, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 2d6df5e18d21c9744a0e3718871b47a6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AtmFullBright: 0
+    - _AtmPower: 3.767857
+    - _AtmSize: 0.5714286
+    - _DiffusePower: 0.23214282
+    - _EmissionFallOff: 0
+    - _EnableAmbient: 0
+    - _FullBright: 0
+    - _Intensity: 0.2
+    - _MaxIntensity: 2.6785715
+    - _MinIntensity: 1.6964285
+    - _OnlyShadow: 0
+    - _Pulsation: 1
+    - _PulsationSpeed: 2.4285715
+    m_Colors:
+    - _AtmColor: {r: 0.9215686, g: 0.4074915, b: 0.074509814, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
