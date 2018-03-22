@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: AZDInRT/////AAAAmULs0/z5uU1UgGDO/R+oSLkd9ClEwaCYPivWYOD92A8AiPuYwoiD5G7AOsOzDYnK4G/Dym83zBuULkL+oZxMytgwNNuT8kzuly6Avnth7MpJd0E+LyEZsA+f7OHm65OrMOBtcK4WElFLl6Zp723bPLRrFcazqcks3lo+NfpppKSOvpOUyKT5RiIuySvQqC6K/PzbBLmdJX+K+nVtI/o4JBSOqFy6qzn8w7QvypQ/ejU7842pvarY+C8SSP81M+qsjeuWXABPbCJwQMgA2y7MC/W4eWQBoQlST+jYuGFZwwO2JtHdCrvkMIZgDaDZSoUo73+XKvPhTuc99boR3F1I4kMQ25ZGmaNbqIGpnjHoUtHI
+    vuforiaLicenseKey: AVywom7/////AAAAmcwUMx0UZkHWoDWTttjwn8xAH3p2iwSE5hHHCMfETjQkpKG4SOLCbJHQjD3WDA6/l0sjFsvvZErahUtPHwFhkARYWqEdJYlGD2Jy8iQNUmmC7zkhzL4R3aCv8rW9iq8qp9wm/C3t8wUbsZM7ofs3EfMar3EnFwaGeS+PvJkNF0uAD7vCRNbEdUmq4VIkJMkt2+95NpG2K6njHuLi+cpGpctexkQ4RS+ziTYEZSR6nHzrsz0m58nVqOKOfeV1Fe0k8pu6Y943k9cNxbrV3VrtlqyOV4RoPQYXhLmWrWU9QzpRkd5RnMemZp0WePo5NIJzYKvsctjJDCMROwEYefrm+o/AvzyJWatbbsej3GuLJWQy
     ufoLicenseKey: QWIvamQ0Yi8vLy8vQUFBQUtMZkdraVJGaDBMUmcvUEx4bTA2eW91V3BnNy92cUE0MnBhcDJXaUQ4S1FsaGZBK2pBWDZzd2Z5VEFkMHFJK1lLb2dNSUhOaHZ2T2V3RUZLaUEvTXhTSVRzKzgrSlROSC93MXBTQTgyb3hPWnBwQ2ZYbllWUzd3OXRyTjU0YnVyb2VEbnZpT2FZY2QxT1k3c0RNUll2K0p3UDF2U1Uxc01jWUMvSnhJRGhiOWFIQWF6NnZ4VXh4NVQ5WWRzbTNrQ1RxWXBFSVJ6SVBYVkUvQ1ZYWGhIU0pJTGlNVnBONG1XbXNXQlVIbFRHYlZvL1A0NlNaNHpZN1pvVHVCRmJpTEM3MUJXRnZEaTRVdVc3cmtCWkpxM1VLdERkZE5YVHUxWURYSjhxckNIemVxNnlnRC9VNytFemJLMTBIK2hkZmY3eXIxeXNodEZxeUs5N2xPL0kreFZlSHBtT0g5M2RqaXpOYU0wd2RpQmtodXY=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
@@ -44,13 +44,9 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
-    - VuforiaMars_Images
-    - VuforiaMars_VuMark
-    - FantasyVuMarks
+    - ARCosmos
     dataSetsToActivate:
-    - VuforiaMars_Images
-    - VuforiaMars_VuMark
-    - FantasyVuMarks
+    - ARCosmos
   videoBackground:
     clippingMode: 0
     numDivisions: 2
@@ -72,5 +68,5 @@ MonoBehaviour:
   webcam:
     deviceNameSetInEditor: 
     flipHorizontally: 0
-    turnOffWebCam: 0
+    turnOffWebCam: 1
     renderTextureLayer: 30

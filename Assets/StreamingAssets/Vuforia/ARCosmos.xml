@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Planet" size="1.000000 1.000000" />
+    <ImageTarget name="Earth" size="1.000000 1.000000" />
+    <ImageTarget name="Astronaut" size="1.000000 1.000000" />
+    <ImageTarget name="Telescope" size="1.000000 1.000000" />
+    <ImageTarget name="Neighbor" size="1.000000 1.000000" />
+    <ImageTarget name="Satellite" size="1.000000 1.000000" />
+    <ImageTarget name="Star" size="1.000000 1.000000" />
+    <ImageTarget name="Spaceship" size="1.000000 1.000000" />
+    <ImageTarget name="Saturn" size="1.000000 1.000000" />
+    <ImageTarget name="Galaxy" size="1.000000 1.000000" />
+  </Tracking>
+</QCARConfig>
