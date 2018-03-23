@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RotateDaPlanets : MonoBehaviour {
 
-    public int speed = 10;
+    public int speed = -10;
 
 
 	void Update () {
