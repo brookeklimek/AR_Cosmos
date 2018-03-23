@@ -8,7 +8,6 @@ public class Earth : MonoBehaviour {
 
    
     public GameObject asteroid;
-    public GameObject secondEarth;
    
     public Text helperText;
 
@@ -17,7 +16,7 @@ public class Earth : MonoBehaviour {
     }
 
     private void OnDisable() {
-        LeanTouch.OnFingerDown -= OnFingerTap;
+        LeanTouch.OnFingerTap -= OnFingerTap;
     }
 
     void Start() {
@@ -31,9 +30,9 @@ public class Earth : MonoBehaviour {
             return;
         }
 
-        //  Instantiate(asteroid);
-        secondEarth.SetActive(true);
-       Destroy(gameObject);
+        //  move asteroid to earth
+
+       
 
        
 

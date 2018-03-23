@@ -440,7 +440,7 @@ MonoBehaviour:
   Reselect: 0
   AutoDeselect: 1
   DeselectOnUp: 0
-  MaxSelectables: 0
+  MaxSelectables: 1
 --- !u!4 &110736188
 Transform:
   m_ObjectHideFlags: 0
