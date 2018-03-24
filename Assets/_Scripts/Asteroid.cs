@@ -25,7 +25,7 @@ public class Asteroid : MonoBehaviour {
 
     void Start() {
         rb = GetComponent<Rigidbody>();
-        sendAsteroid = false;
+        sendAsteroid = true;
     }
 
      void Update() {
@@ -56,9 +56,9 @@ public class Asteroid : MonoBehaviour {
 
   //}
 
-      public void SendAsteroid () {
-        sendAsteroid = true;
-    }
+    //  public void SendAsteroid () {
+    //    sendAsteroid = true;
+    //}
 
     void OnTriggerEnter(Collider other) {
         
