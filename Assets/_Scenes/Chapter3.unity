@@ -280,7 +280,7 @@ MonoBehaviour:
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/ARCosmos.xml
-  mExtendedTracking: 0
+  mExtendedTracking: 1
   mAspectRatio: 1
   mImageTargetType: 0
   mWidth: 1
@@ -755,6 +755,58 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -10
+--- !u!114 &757909053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 757909050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52d72cc6210cb7144a24acb7402222a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IgnoreGuiFingers: 1
+  RequiredFingerCount: 0
+  RequiredSelectable: {fileID: 0}
+  Camera: {fileID: 0}
+  RotateAxis: {x: 0, y: 0, z: 1}
+  Relative: 0
+--- !u!114 &757909054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 757909050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c73c1ab94e28d244827af556dca1ed2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IgnoreGuiFingers: 1
+  RequiredFingerCount: 0
+  RequiredSelectable: {fileID: 0}
+  WheelSensitivity: 0
+  Camera: {fileID: 0}
+  Relative: 0
+  ScaleClamp: 0
+  ScaleMin: {x: 0, y: 0, z: 0}
+  ScaleMax: {x: 0, y: 0, z: 0}
+--- !u!114 &757909055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 757909050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eda371e5375f454490a86f21559ee38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IgnoreGuiFingers: 1
+  RequiredFingerCount: 0
+  RequiredSelectable: {fileID: 0}
+  Camera: {fileID: 0}
 --- !u!1 &850970209
 GameObject:
   m_ObjectHideFlags: 0
