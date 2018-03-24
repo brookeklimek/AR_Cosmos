@@ -4,7 +4,7 @@ using Lean.Touch;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Galaxy : MonoBehaviour {
+public class ManageScene : MonoBehaviour {
 
    // public GameObject galaxy;
     public GameObject earlyEarth;

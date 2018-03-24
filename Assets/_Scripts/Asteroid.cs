@@ -28,7 +28,7 @@ public class Asteroid : MonoBehaviour {
         sendAsteroid = false;
     }
 
-    private void Update() {
+     void Update() {
         target = GameObject.FindGameObjectWithTag("MiddleEarth");
 
         if(sendAsteroid) {
