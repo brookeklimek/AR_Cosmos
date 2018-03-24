@@ -1,11 +1,16 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class DragObject1 : MonoBehaviour {
 
 	Vector3 dist;
 	float posX;
 	float posY;
+
+	void Start () {
+		
+	}
 
 	void OnMouseDown(){
 		dist = Camera.main.WorldToScreenPoint(transform.position);
