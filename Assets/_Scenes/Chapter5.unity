@@ -1067,7 +1067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bb775feca211c748b48cd3f9b59a4cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Prefab: {fileID: 4443428964697250, guid: bb840af5fa1157a47b53db33665d2089, type: 2}
+  Prefab: {fileID: 4432101327153244, guid: 0f15b8b4105228141b72a077daee40a9, type: 2}
   Distance: 2
   RotateToVelocity: 0
   VelocityMultiplier: 0
@@ -1101,6 +1101,7 @@ GameObject:
   - component: {fileID: 1501232918}
   - component: {fileID: 1501232915}
   - component: {fileID: 1501232923}
+  - component: {fileID: 1501232916}
   m_Layer: 0
   m_Name: Planet
   m_TagString: MiddleEarth
@@ -1126,8 +1127,23 @@ MonoBehaviour:
   Camera: {fileID: 0}
   Relative: 0
   ScaleClamp: 0
-  ScaleMin: {x: 0, y: 0, z: 0}
-  ScaleMax: {x: 0, y: 0, z: 0}
+  ScaleMin: {x: 1, y: 1, z: 1}
+  ScaleMax: {x: 5, y: 5, z: 5}
+--- !u!114 &1501232916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1501232914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eda371e5375f454490a86f21559ee38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IgnoreGuiFingers: 1
+  RequiredFingerCount: 0
+  RequiredSelectable: {fileID: 0}
+  Camera: {fileID: 0}
 --- !u!4 &1501232917
 Transform:
   m_ObjectHideFlags: 0
