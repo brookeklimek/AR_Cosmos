@@ -9,6 +9,9 @@ public class Mover : MonoBehaviour {
     //public GameObject launch;
     public GameObject fire;
 
+    public AudioClip liftOff;
+    public AudioClip launchNoise;
+
     private void OnEnable() {
         LeanTouch.OnFingerTap += OnFingerTap;
     }
@@ -18,17 +21,10 @@ public class Mover : MonoBehaviour {
     }
 
 
-    void Start() {
-        
-    }
-
     
-
     void OnFingerTap(LeanFinger finger) {
 
-        //Rigidbody rigidbody = GetComponent<Rigidbody>();
-        //rigidbody.velocity = transform.forward * speed;
-
+        
         StartCoroutine(Example());
 
 
@@ -37,21 +33,21 @@ public class Mover : MonoBehaviour {
 
 
     IEnumerator Example() {
-          print(Time.time);
-            fire.SetActive(true);
-            yield return new WaitForSeconds(3);
-            print(Time.time);
+         fire.SetActive(true);
+        SoundManager.instance.PlaySingle(liftOff);
 
-            Rigidbody rigidbody = GetComponent<Rigidbody>();
-            rigidbody.velocity = transform.forward * speed;
+        yield return new WaitForSeconds(3);
 
-        yield return new WaitForSeconds(8);
+       //SoundManager.instance.PlaySingle(launchNoise);
 
-        Debug.Log("wait for 5 seconds");
+        Rigidbody rigidbody = GetComponent<Rigidbody>();
+        rigidbody.velocity = transform.forward * speed;
+
+        yield return new WaitForSeconds(12);
+
         Spaceshuttle.notGenerated = true;
 
-
-       Destroy(gameObject);
+        Destroy(gameObject);
         }
 
 
