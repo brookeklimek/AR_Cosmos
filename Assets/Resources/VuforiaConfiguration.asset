@@ -44,14 +44,14 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
-    - FantasyVuMarks
     - VuforiaMars_Images
     - VuforiaMars_VuMark
+    - FantasyVuMarks
     - ARCosmos
     dataSetsToActivate:
-    - FantasyVuMarks
     - VuforiaMars_Images
     - VuforiaMars_VuMark
+    - FantasyVuMarks
     - ARCosmos
   videoBackground:
     clippingMode: 0
