@@ -13,11 +13,12 @@ public class QuizManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		correctPlanets = 0;
-		startingX = -0.5f;
+		//startingX = -0.5f;
+		startingX = -4.14f;
 
 		List<GameObject> selectedPlanets = new List<GameObject>();
 
-		while ( selectedPlanets.Count < 7 ) {
+		while ( selectedPlanets.Count < 8 ) {
 			int randomIndex = Random.Range( 0, planets.Count );
 			if ( !selectedPlanets.Contains( planets[randomIndex] ) )
 				selectedPlanets.Add( planets[randomIndex] );
@@ -44,6 +45,7 @@ public class QuizManager : MonoBehaviour {
 		Debug.Log (startingX);
 		Instantiate (planet);
 
-		startingX += 0.15f;
+		//startingX += 0.15f;
+		startingX += 1.24f;
 	} 
 }
