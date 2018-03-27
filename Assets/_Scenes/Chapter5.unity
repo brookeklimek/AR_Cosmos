@@ -562,7 +562,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "This is our home.\nThe Milky Way Galaxy. \n\nTap to see Earth."
+  m_Text: '4.6 billion years ago. Earth''s surface molten and oxygen non-existent. '
 --- !u!222 &457283918
 CanvasRenderer:
   m_ObjectHideFlags: 0
