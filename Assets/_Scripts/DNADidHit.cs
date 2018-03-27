@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class DNADidHit : MonoBehaviour {
-	Material hitMaterial;
+	//Material hitMaterial;
 
 	float timer;
 	bool timerFlip;
@@ -28,9 +28,9 @@ public class DNADidHit : MonoBehaviour {
 		badMutesCount = 5;
 		goodMutesCount = 0;
 
-		hitMaterial = GetComponent<Renderer>().material;
+		//hitMaterial = GetComponent<Renderer>().material;
 
-		newScale = 0.8f;
+		newScale = 4.0f;
 
 		extinct.text = "";
 		youLive.text = "";
@@ -42,7 +42,7 @@ public class DNADidHit : MonoBehaviour {
 			timer -= Time.deltaTime;
 
 			if (timer < 0.1f) {
-				hitMaterial.color = Color.white;
+				//hitMaterial.color = Color.white;
 				timerFlip = !timerFlip;
 			}
 		}
@@ -54,7 +54,7 @@ public class DNADidHit : MonoBehaviour {
 
 	void OnTriggerEnter (Collider disc) {
 		if (disc.gameObject.tag == "DNA_Green") {
-			hitMaterial.color = Color.green;
+			//hitMaterial.color = Color.green;
 
 			goodMutesCount++;
 			if (goodMutesCount > 9) {
@@ -64,11 +64,11 @@ public class DNADidHit : MonoBehaviour {
 			}
 
 		} else if (disc.gameObject.tag == "DNA_Red") {
-			hitMaterial.color = Color.red;
+			//hitMaterial.color = Color.red;
 
-			newScale -= 0.1f; 
+			newScale -= 0.75f; 
 
-			gameObject.transform.localScale = new Vector3 (newScale, newScale, 0.1f);
+			gameObject.transform.localScale = new Vector3 (newScale, newScale, newScale);
 
 			badMutesCount--;
 			if (badMutesCount == 0) {

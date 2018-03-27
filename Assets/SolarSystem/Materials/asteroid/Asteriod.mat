@@ -28,7 +28,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: bbfaeb21cc79c6a4e8a80a0df9dd6ab8, type: 3}
-        m_Scale: {x: 2, y: 2}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
@@ -36,7 +36,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Parallax: 0.06017857
-    - _Shininess: 0.3574689
+    - _Shininess: 0.302
     m_Colors:
     - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _SpecColor: {r: 0.125, g: 0.125, b: 0.125, a: 1}

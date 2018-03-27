@@ -41,7 +41,7 @@ public class QuizManager : MonoBehaviour {
 	public static void PopulatePlanets (GameObject planet) {
 		
 
-		planet.transform.position = new Vector3 (startingX, 0.05f, 0);
+		planet.transform.position = new Vector3 (startingX, 4.0f, 0);
 		Debug.Log (startingX);
 		Instantiate (planet);
 
