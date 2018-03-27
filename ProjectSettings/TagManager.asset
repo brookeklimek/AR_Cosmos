@@ -15,7 +15,9 @@ TagManager:
   - Mercury
   - MiddleEarth
   - DNADisc
-  - DNA
+  - ImgTar
+  - DNA_Green
+  - DNA_Red
   layers:
   - Default
   - TransparentFX

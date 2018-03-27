@@ -28,7 +28,7 @@ public class MoveBackandForth : MonoBehaviour {
 			X += 0.05f;
 		}
 
-		transform.position = new Vector3 (X, 0, 1);
+		transform.position = new Vector3 (X, 0, 6);
 
 	}
 }
