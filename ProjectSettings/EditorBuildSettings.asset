@@ -26,11 +26,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Chapter7.unity
     guid: 510da6c299b8c2545a203f2d7d17f059
+  - enabled: 1
+    path: Assets/_Scenes/OpeningScreen.unity
+    guid: da9001e099f07f4469826721f410585f
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/_Scenes/Chapter6.unity
+    path: 
     guid: 796fa143262be534695cf67ae1e0bd84
   - enabled: 0
     path: Assets/_Scenes/Mars.unity
