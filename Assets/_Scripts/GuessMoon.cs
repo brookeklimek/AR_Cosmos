@@ -4,21 +4,24 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class GuessMoon : MonoBehaviour {
-
     
-
-     
-
+    
     public void Guess() {
-        if (SelectMoon.phase == gameObject.name) {
+         
+        if (RandomMoonName.phase == gameObject.name) {
             Debug.Log("correct");
-            SelectMoon.correct = true;
+            RandomMoonName.correct = true;
+
+          
             //"gameobject.Name" + is correct!
 
         }
         else {
             Debug.Log("incorrect");
-            SelectMoon.correct = false;
+            RandomMoonName.correct = false;
+
+            
+
             //"Try again"
         }
     }
