@@ -207,7 +207,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4745132096973556}
-  - component: {fileID: 114323226595792978}
   - component: {fileID: 114727299255216516}
   - component: {fileID: 114096127160759566}
   m_Layer: 0
@@ -486,7 +485,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1388277086760594}
   m_LocalRotation: {x: -0.38268343, y: -0, z: -0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: -3.44, z: 34.4}
+  m_LocalPosition: {x: 0, y: -3.44, z: 25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4728143322604624}
@@ -618,21 +617,6 @@ MonoBehaviour:
   RotX: 0
   RotY: 0
   RotZ: 2
---- !u!114 &114323226595792978
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1388277086760594}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fb6937c55c1a1d48944cf25121a38c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  earlyEarth: {fileID: 0}
-  startMaterial: {fileID: 0}
-  tappedMaterial: {fileID: 0}
-  helperText: {fileID: 0}
 --- !u!114 &114727299255216516
 MonoBehaviour:
   m_ObjectHideFlags: 1
