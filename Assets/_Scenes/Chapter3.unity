@@ -1021,7 +1021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdbb0e7bd76434637849aa3a039ffebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -1
+  speed: -10
   yPosition: 0
 --- !u!1 &364938709 stripped
 GameObject:
@@ -1292,7 +1292,6 @@ GameObject:
   - component: {fileID: 498481280}
   - component: {fileID: 498481279}
   - component: {fileID: 498481278}
-  - component: {fileID: 498481277}
   m_Layer: 5
   m_Name: TestKnowledgeButton
   m_TagString: Untagged
@@ -1319,19 +1318,6 @@ RectTransform:
   m_AnchoredPosition: {x: 194, y: 339}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &498481277
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 498481275}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 826265387564f154b9ef49218b74f181, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startScene: {fileID: 1842925444}
-  testingScene: {fileID: 1411763652}
 --- !u!114 &498481278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4358,7 +4344,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4089930048839830, guid: 197e3ac6f13c01a429f4e2e3f0237c97, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 3.25
+      value: 2.75
       objectReference: {fileID: 0}
     - target: {fileID: 4089930048839830, guid: 197e3ac6f13c01a429f4e2e3f0237c97, type: 2}
       propertyPath: m_LocalRotation.x
@@ -4514,7 +4500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 826265387564f154b9ef49218b74f181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startScene: {fileID: 0}
+  startScene: {fileID: 1842925444}
   testingScene: {fileID: 1411763652}
 --- !u!1 &2091647938 stripped
 GameObject:
