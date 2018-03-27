@@ -23,3 +23,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Chapter5.unity
     guid: f0fc6f253cfdfcb459db2b6b958f22a9
+  - enabled: 1
+    path: Assets/_Scenes/Chapter7.unity
+    guid: 510da6c299b8c2545a203f2d7d17f059
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/_Scenes/Chapter6.unity
+    guid: 796fa143262be534695cf67ae1e0bd84
+  - enabled: 0
+    path: Assets/_Scenes/Mars.unity
+    guid: 376487340ef884f4cb13e6ca3d9da134
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000

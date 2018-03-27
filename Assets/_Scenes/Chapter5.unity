@@ -744,10 +744,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb6937c55c1a1d48944cf25121a38c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  earlyEarth: {fileID: 0}
-  startMaterial: {fileID: 0}
-  tappedMaterial: {fileID: 0}
+  galaxy: {fileID: 0}
+  bigBang: {fileID: 0}
   helperText: {fileID: 457283917}
+  bang: {fileID: 0}
 --- !u!4 &850970211
 Transform:
   m_ObjectHideFlags: 0
@@ -1069,7 +1069,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Prefab: {fileID: 4432101327153244, guid: 0f15b8b4105228141b72a077daee40a9, type: 2}
   Distance: 2
-  RotateToVelocity: 0
+  RotateToVelocity: 1
   VelocityMultiplier: 0
 --- !u!4 &1501232913
 Transform:

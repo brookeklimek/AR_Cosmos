@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Scene3Manager  : MonoBehaviour {
 
-    public GameObject toScaleScene;
+   
     public GameObject observableScene;
     public Text helperText;
 
@@ -21,7 +21,7 @@ public class Scene3Manager  : MonoBehaviour {
     }
 
     void Start() {
-        toScaleScene.SetActive(false);
+        
     }
 
     void OnFingerTap(LeanFinger finger) {
@@ -32,12 +32,12 @@ public class Scene3Manager  : MonoBehaviour {
 
         switch(view) {
             case 0:
-                observableScene.SetActive(false);
-                toScaleScene.SetActive(true);
+                observableScene.SetActive(true);
+               
                 view = 1;
                 break;
             case 1:
-                toScaleScene.SetActive(false);
+               
                 observableScene.SetActive(true);
                 view = 0;
                 break;
