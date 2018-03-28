@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class GuessMoon : MonoBehaviour {
-    
+    public Text answer;
     
     public void Guess() {
          
@@ -12,17 +12,17 @@ public class GuessMoon : MonoBehaviour {
             Debug.Log("correct");
             RandomMoonName.correct = true;
 
-          
-            //"gameobject.Name" + is correct!
+
+           answer.text = "Correct!";
 
         }
         else {
             Debug.Log("incorrect");
             RandomMoonName.correct = false;
 
-            
 
-            //"Try again"
+
+           answer.text = "Try again...";
         }
     }
 }

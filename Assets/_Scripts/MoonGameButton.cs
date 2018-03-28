@@ -7,6 +7,7 @@ public class MoonGameButton : MonoBehaviour {
 
     public GameObject startScene;
     public GameObject testingScene;
+    public GameObject gamePanel;
 
     private bool practiceScene = true;
     private bool testScene = false;
@@ -24,11 +25,14 @@ public class MoonGameButton : MonoBehaviour {
             testingScene.SetActive(true);
             testScene = true;
             buttonText.text = "Go back";
+            gamePanel.SetActive(true);
          }
 
         else {
             testingScene.SetActive(false);
             testScene = false;
+            gamePanel.SetActive(false);
+
 
             startScene.SetActive(true);
             practiceScene = true;

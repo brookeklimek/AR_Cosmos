@@ -16,6 +16,7 @@ public class RandomMoonName : MonoBehaviour {
     }
 
     void Update() {
+        phase = moonPhase.text;
         if (correct) {
             Game();
             correct = false;
@@ -31,8 +32,8 @@ public class RandomMoonName : MonoBehaviour {
     private void Game() {
 
         System.Random random = new System.Random();
-        moonPhase.text = "Find the " + phases[random.Next(phases.Length)];
-        phase = moonPhase.text;
+        moonPhase.text = "" + phases[random.Next(phases.Length)];
+        
 
 
     }
