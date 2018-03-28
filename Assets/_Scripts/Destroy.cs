@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class Destroy : MonoBehaviour {
 
-	// Use this for initialization
+    public float TTL;
+
+	
 	void Start () {
-        Destroy(gameObject, 5.0f);
+        Destroy(gameObject, TTL);
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+	
 }
