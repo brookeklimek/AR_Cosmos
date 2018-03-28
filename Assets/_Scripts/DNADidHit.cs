@@ -57,7 +57,7 @@ public class DNADidHit : MonoBehaviour {
 			//hitMaterial.color = Color.green;
 
 			goodMutesCount++;
-			if (goodMutesCount > 9) {
+			if (goodMutesCount > 5) {
 				youLive.text = "You lived to the next generation";
 				Time.timeScale = 0;
 				playAgain.gameObject.SetActive(true);
